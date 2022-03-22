@@ -28,10 +28,10 @@ public class ReportIssuePage {
     }
 
     public void inputSummary(String summary) {
-        summaryField.sendKeys(summary); }
+        summaryField.sendKeys("new bug"); }
 
     public void inputDescription(String description) {
-        descriptionField.sendKeys(description); }
+        descriptionField.sendKeys("description"); }
 
     public void clickSubmitButton() {
         submitButton.click(); }
